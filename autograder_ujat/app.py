@@ -23,11 +23,21 @@ st.markdown("""
     box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 .header-banner h1 { 
-    color: white; 
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
-    font-size: clamp(1.8rem, 6vw, 3.5rem) !important;
-    word-break: keep-all;
-    line-height: 1.2;
+    color: white !important; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5) !important; 
+    font-size: clamp(1.2rem, 5vw, 3rem) !important;
+    word-wrap: normal !important;
+    overflow-wrap: normal !important;
+    word-break: keep-all !important;
+    line-height: 1.3 !important;
+    margin: 0 !important;
+    padding-bottom: 10px !important;
+}
+@media (max-width: 768px) {
+    .header-banner h1 {
+        font-size: 1.6rem !important;
+        word-break: normal !important;
+    }
 }
 .login-box {
     background-color: #ffffff;
