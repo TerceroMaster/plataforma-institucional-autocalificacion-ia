@@ -1,7 +1,7 @@
-streamlit==1.38.0
-langchain-openai==0.2.0
-langchain-core==0.3.0
-langgraph==0.2.20
-pydantic==2.9.2
-python-dotenv==1.0.1
-fpdf==1.7.2
+streamlit
+langchain-openai
+langchain-core
+langgraph
+pydantic
+python-dotenv
+fpdf
