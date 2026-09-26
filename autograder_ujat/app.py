@@ -307,8 +307,8 @@ def render_landing_info():
     
     st.markdown("""
     <div style="background: linear-gradient(90deg, #166534 0%, #064e3b 100%); padding: 50px; border-radius: 10px; text-align: center; color: white; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
-        <h1 style="font-size: 3.5rem; margin-bottom: 10px; color: #facc15;">UJAT Evaluador Automático Institucional</h1>
-        <h3 style="font-size: 1.5rem; font-weight: 300;">Evaluación Multi-Agente con Inteligencia Artificial</h3>
+        <h1 style="font-size: clamp(2rem, 6vw, 3.5rem); margin-bottom: 10px; color: #facc15; word-break: keep-all;">UJAT Evaluador Automático</h1>
+        <h3 style="font-size: clamp(1.2rem, 4vw, 1.5rem); font-weight: 300;">Evaluación Multi-Agente con Inteligencia Artificial</h3>
         <p style="font-size: 1.1rem; margin-top: 20px;">Transformando la educación superior a través de agentes cognitivos y evaluación automatizada en tiempo real.</p>
     </div>
     """, unsafe_allow_html=True)
